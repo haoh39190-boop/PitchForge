@@ -1,23 +1,26 @@
-import Link from "next/link";
-import { AppHeader } from "@/components/app-header";
+import Image from 'next/image';
+import Link from 'next/link';
 
-export default function NotFound() {
+import { envConfigs } from '@/config';
+import { SmartIcon } from '@/shared/blocks/common/smart-icon';
+import { Button } from '@/shared/components/ui/button';
+
+export default function NotFoundPage() {
   return (
-    <main className="min-h-screen">
-      <AppHeader />
-      <section className="mx-auto flex w-[1180px] flex-col items-start gap-5 py-28">
-        <p className="text-sm font-semibold text-signal">404</p>
-        <h1 className="text-4xl font-semibold text-ink">没有找到这个页面</h1>
-        <p className="max-w-xl text-base leading-7 text-graphite">
-          PitchForge 当前只开放 MVP 演示页面。可以回到工作台继续生成示例话术。
-        </p>
-        <Link
-          href="/dashboard"
-          className="rounded-md bg-ink px-5 py-3 text-sm font-semibold text-white"
-        >
-          进入工作台
+    <div className="flex h-screen flex-col items-center justify-center gap-4">
+      <Image
+        src={envConfigs.app_logo}
+        alt={envConfigs.app_name}
+        width={80}
+        height={80}
+      />
+      <h1 className="text-2xl font-normal">Page not found</h1>
+      <Button asChild>
+        <Link href="/" className="mt-4">
+          <SmartIcon name="ArrowLeft" />
+          <span>Back to Home</span>
         </Link>
-      </section>
-    </main>
+      </Button>
+    </div>
   );
 }

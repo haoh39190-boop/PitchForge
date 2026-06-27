@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Sales Follow-up Guide",
+    "description": "Read practical automotive customer follow-up guidance and PitchForge tips."
+  },
+  "page": {
+    "title": "PitchForge Sales Follow-up Guide",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Sales Follow-up Guide",
+        "description": "Practical ideas for customer stages, communication rhythm, and concern handling."
+      }
+    }
+  },
+  "messages": {
+    "all": "All",
+    "no_content": "No Content",
+    "crumb": "Blog",
+    "toc": "Table of Contents"
+  }
+}

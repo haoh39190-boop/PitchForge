@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "汽车销售跟进场景",
+    "description": "查看 PitchForge 如何帮助销售应对不同客户阶段与沟通情境。"
+  },
+  "page": {
+    "title": "汽车销售跟进场景",
+    "sections": {
+      "showcases": {
+        "block": "features",
+        "id": "showcases",
+        "title": "不同阶段，需要不同的跟进方式",
+        "description": "从首次联系到成交后服务，PitchForge 帮助销售围绕客户真实情况组织表达。",
+        "className": "pt-32 pb-24",
+        "items": [
+          {
+            "title": "新线索｜先确认需求",
+            "description": "围绕购车计划、用车场景、预算和意向车型自然开场，避免在信息不足时过早推销。",
+            "icon": "UserRoundSearch"
+          },
+          {
+            "title": "持续跟进｜承接上次沟通",
+            "description": "带上客户已经表达过的关注点和顾虑，让每次联系都延续前一次沟通。",
+            "icon": "MessagesSquare"
+          },
+          {
+            "title": "邀约到店｜给出具体下一步",
+            "description": "明确客户到店后可以重点体验什么，并提供容易回复的时间选择。",
+            "icon": "CalendarCheck2"
+          },
+          {
+            "title": "谈价沟通｜回到价值与适配",
+            "description": "围绕配置、空间、使用成本和实际需求展开，不做未经核实的价格承诺。",
+            "icon": "BadgeDollarSign"
+          },
+          {
+            "title": "暂不考虑｜保持联系空间",
+            "description": "尊重客户当前节奏，用克制、低压力的表达保留未来重新沟通的可能。",
+            "icon": "PauseCircle"
+          },
+          {
+            "title": "成交之后｜延续客户体验",
+            "description": "确认交付、资料和后续服务安排，让销售沟通从成交自然延伸到长期关系。",
+            "icon": "Handshake"
+          }
+        ]
+      }
+    }
+  }
+}

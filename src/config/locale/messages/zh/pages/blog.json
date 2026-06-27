@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "销售跟进指南",
+    "description": "阅读汽车销售客户跟进方法、沟通建议与 PitchForge 使用技巧。"
+  },
+  "page": {
+    "title": "PitchForge 销售跟进指南",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "销售跟进指南",
+        "description": "围绕客户阶段、沟通节奏与顾虑回应，持续整理可实践的方法。"
+      }
+    }
+  },
+  "messages": {
+    "all": "全部",
+    "no_content": "暂无内容",
+    "crumb": "博客",
+    "toc": "目录"
+  }
+}

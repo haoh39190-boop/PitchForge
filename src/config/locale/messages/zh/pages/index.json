@@ -1,0 +1,211 @@
+{
+  "page": {
+    "title": "PitchForge - 销售线索转化提升 AI 工具",
+    "show_sections": [
+      "hero",
+      "features",
+      "workflow",
+      "scenarios",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "block": "hero-pitchforge",
+        "id": "hero",
+        "badge": "汽车销售线索跟进助手",
+        "title": "让每次客户跟进，都更知道怎么说",
+        "description": "记录客户信息，一键生成可用的跟进话术，让每条线索都更接近成交。",
+        "buttons": [
+          {
+            "title": "立即使用",
+            "url": "/customers"
+          },
+          {
+            "title": "了解使用流程",
+            "url": "/#workflow",
+            "variant": "outline"
+          }
+        ],
+        "points": ["无需登录即可开始", "中英文界面", "日间与夜间模式"],
+        "generator": {
+          "title": "生成本次跟进话术",
+          "description": "根据客户当前情况，整理更自然的沟通表达",
+          "customer": "客户",
+          "vehicle": "意向车型",
+          "stage": "客户阶段",
+          "focus": "本次关注点",
+          "stage_new": "新线索",
+          "stage_following": "跟进中",
+          "stage_visit": "邀约到店",
+          "stage_negotiating": "谈价中",
+          "generate": "生成话术",
+          "generating": "正在生成",
+          "result_title": "建议话术",
+          "copy": "复制",
+          "copied": "已复制",
+          "empty": "填写客户情况后，点击生成话术。",
+          "tip": "生成后仍可继续编辑、改写并保存",
+          "sample_name": "李女士",
+          "sample_vehicle": "Model Y",
+          "sample_focus": "后排空间和日常通勤成本",
+          "sample_budget": "30 万元左右",
+          "sample_objection": "还在对比同级车型",
+          "initial_script": "李女士您好，关于您关注的 Model Y，想和您确认一下：之前提到的后排空间和日常通勤成本，现在是否仍是您选车时最看重的两点？同级车型各有侧重，我们可以结合实际用车场景，把空间、配置和长期使用成本逐项对比清楚。您看今天晚些时候，还是明天方便继续沟通？"
+        }
+      },
+      "features": {
+        "block": "features",
+        "id": "features",
+        "title": "从客户信息到下一次有效沟通",
+        "description": "把分散的客户线索、沟通重点和可复用表达放在同一个清晰工作流中。",
+        "items": [
+          {
+            "title": "客户档案",
+            "description": "集中记录意向车型、预算、跟进阶段、关注点和主要顾虑。",
+            "icon": "ContactRound"
+          },
+          {
+            "title": "情境化生成",
+            "description": "结合客户阶段、沟通渠道和销售语气，生成结构化跟进内容。",
+            "icon": "WandSparkles"
+          },
+          {
+            "title": "自由编辑与改写",
+            "description": "直接调整完整话术，或按“更简短、委婉、加强邀约”等要求重写。",
+            "icon": "PencilLine"
+          },
+          {
+            "title": "沟通记录",
+            "description": "将确认使用的内容保存为记录，方便回顾每一次客户跟进。",
+            "icon": "MessageSquareText"
+          },
+          {
+            "title": "常用话术",
+            "description": "保存经过打磨的高质量表达，在相似场景中快速复用。",
+            "icon": "Bookmark"
+          },
+          {
+            "title": "双语与主题切换",
+            "description": "支持中文、英文以及日间、夜间界面，偏好会被自动保留。",
+            "icon": "Languages"
+          }
+        ]
+      },
+      "workflow": {
+        "block": "features-step",
+        "id": "workflow",
+        "label": "清晰工作流",
+        "title": "四步完成一次高质量跟进",
+        "description": "减少临场组织语言的压力，把注意力放回客户和下一步行动。",
+        "items": [
+          {
+            "title": "创建客户",
+            "description": "先记录姓名、意向车型和预算，后续再逐步补充。",
+            "icon": "UserPlus"
+          },
+          {
+            "title": "补充情境",
+            "description": "选择阶段、沟通渠道、关注点、顾虑和语气。",
+            "icon": "SlidersHorizontal"
+          },
+          {
+            "title": "生成并调整",
+            "description": "得到完整跟进话术，继续编辑或按要求换一种表达。",
+            "icon": "Sparkles"
+          },
+          {
+            "title": "使用并沉淀",
+            "description": "按需复制内容，确认后保存沟通记录；满意版本还可存为常用话术。",
+            "icon": "Save"
+          }
+        ],
+        "className": "bg-muted/45"
+      },
+      "scenarios": {
+        "block": "features",
+        "id": "scenarios",
+        "title": "覆盖汽车销售常见跟进场景",
+        "description": "表达会随着客户所处阶段变化，不用把同一套内容发给每一位客户。",
+        "items": [
+          {
+            "title": "首次线索联系",
+            "description": "自然开场并确认真实需求，不在信息不足时过早推进。",
+            "icon": "PhoneCall"
+          },
+          {
+            "title": "持续跟进",
+            "description": "承接上次沟通重点，回应客户顾虑并保持联系节奏。",
+            "icon": "MessagesSquare"
+          },
+          {
+            "title": "邀约到店",
+            "description": "明确体验重点和时间选择，让下一步更具体、更容易答复。",
+            "icon": "CalendarCheck"
+          },
+          {
+            "title": "方案与价格沟通",
+            "description": "围绕车型适配、配置差异和使用成本展开，不做未经核实的承诺。",
+            "icon": "BadgeDollarSign"
+          },
+          {
+            "title": "暂缓考虑",
+            "description": "尊重客户当前节奏，保留后续联系空间，避免造成压力。",
+            "icon": "Clock3"
+          },
+          {
+            "title": "成交后沟通",
+            "description": "确认交付安排和后续服务，让客户体验保持连续。",
+            "icon": "Handshake"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "关于 PitchForge 的使用方式与数据保存。",
+        "items": [
+          {
+            "question": "PitchForge 适合谁使用？",
+            "answer": "适合需要持续跟进汽车销售线索的销售顾问、门店团队和销售管理者。"
+          },
+          {
+            "question": "生成的话术可以修改吗？",
+            "answer": "可以。完整话术支持直接编辑，也可以换个说法，或按补充要求重新整理。"
+          },
+          {
+            "question": "客户信息会保存在哪里？",
+            "answer": "客户档案、沟通记录和常用话术保存在当前浏览器中，便于下次继续使用。"
+          },
+          {
+            "question": "常用话术会影响新话术生成吗？",
+            "answer": "不会。常用话术是独立的个人复用库，仅在你主动选择时用于某位客户。"
+          },
+          {
+            "question": "是否支持英文界面？",
+            "answer": "支持中文和英文切换，同时支持日间、夜间和跟随系统主题。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "让下一次客户跟进更有准备",
+        "description": "从一条客户线索开始，整理重点，生成可用的沟通内容。",
+        "buttons": [
+          {
+            "title": "进入客户工作台",
+            "url": "/customers",
+            "icon": "ArrowRight"
+          },
+          {
+            "title": "查看跟进场景",
+            "url": "/showcases",
+            "variant": "outline",
+            "icon": "PanelsTopLeft"
+          }
+        ],
+        "className": "bg-muted/45"
+      }
+    }
+  }
+}

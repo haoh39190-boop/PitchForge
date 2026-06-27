@@ -1,0 +1,140 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PitchForge",
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Capabilities",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Workflow",
+          "url": "/#workflow",
+          "icon": "ListChecks"
+        },
+        {
+          "title": "Situations",
+          "url": "/showcases",
+          "icon": "PanelsTopLeft"
+        },
+        {
+          "title": "Resources",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "Sales follow-up guide",
+              "description": "Practical guidance for better customer follow-up",
+              "url": "/blog",
+              "icon": "Newspaper"
+            },
+            {
+              "title": "Product updates",
+              "description": "See what has changed in PitchForge",
+              "url": "/updates",
+              "icon": "Clock"
+            },
+            {
+              "title": "Documentation",
+              "description": "Learn the product workflow and features",
+              "url": "/docs",
+              "icon": "BookOpenText"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Open workspace",
+        "url": "/customers",
+        "icon": "ArrowRight"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PitchForge",
+      "description": "An automotive sales lead follow-up tool that organizes customer context and generates structured language for the next conversation.",
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Customer workspace",
+              "url": "/customers"
+            },
+            {
+              "title": "Saved scripts",
+              "url": "/saved-scripts"
+            },
+            {
+              "title": "Follow-up situations",
+              "url": "/showcases"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documentation",
+              "url": "/docs"
+            },
+            {
+              "title": "Sales follow-up guide",
+              "url": "/blog"
+            },
+            {
+              "title": "Product updates",
+              "url": "/updates"
+            }
+          ]
+        },
+        {
+          "title": "Explore PitchForge",
+          "children": [
+            {
+              "title": "Capabilities",
+              "url": "/#features"
+            },
+            {
+              "title": "Workflow",
+              "url": "/#workflow"
+            },
+            {
+              "title": "Start now",
+              "url": "/customers"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}

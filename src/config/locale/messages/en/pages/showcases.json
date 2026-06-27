@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Automotive Sales Follow-up Situations",
+    "description": "See how PitchForge supports different customer stages and communication situations."
+  },
+  "page": {
+    "title": "Automotive Sales Follow-up Situations",
+    "sections": {
+      "showcases": {
+        "block": "features",
+        "id": "showcases",
+        "title": "Every stage needs a different follow-up",
+        "description": "From first contact to post-sale service, PitchForge helps sales advisors speak from the customer’s real context.",
+        "className": "pt-32 pb-24",
+        "items": [
+          {
+            "title": "New lead · Confirm the need",
+            "description": "Open with purchase timing, driving context, budget, and vehicle interest instead of pushing too early.",
+            "icon": "UserRoundSearch"
+          },
+          {
+            "title": "Ongoing follow-up · Continue the story",
+            "description": "Carry forward the priorities and concerns the customer already shared.",
+            "icon": "MessagesSquare"
+          },
+          {
+            "title": "Visit invitation · Make the next step concrete",
+            "description": "Clarify what the customer can experience and offer time choices that are easy to answer.",
+            "icon": "CalendarCheck2"
+          },
+          {
+            "title": "Negotiation · Return to fit and value",
+            "description": "Discuss trim, space, ownership cost, and practical needs without making unverified promises.",
+            "icon": "BadgeDollarSign"
+          },
+          {
+            "title": "Paused customer · Keep the door open",
+            "description": "Respect the customer’s timing with calm, low-pressure language that leaves room for later.",
+            "icon": "PauseCircle"
+          },
+          {
+            "title": "After the sale · Continue the experience",
+            "description": "Confirm delivery, documents, and follow-up service to build a longer customer relationship.",
+            "icon": "Handshake"
+          }
+        ]
+      }
+    }
+  }
+}

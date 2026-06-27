@@ -1,0 +1,215 @@
+{
+  "page": {
+    "title": "PitchForge - AI Sales Lead Conversion Tool",
+    "show_sections": [
+      "hero",
+      "features",
+      "workflow",
+      "scenarios",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "block": "hero-pitchforge",
+        "id": "hero",
+        "badge": "Automotive sales follow-up assistant",
+        "title": "Know what to say in every customer follow-up",
+        "description": "Capture customer context and generate follow-up language you can actually use. Forge every lead into a better sales opportunity.",
+        "buttons": [
+          {
+            "title": "Start now",
+            "url": "/customers"
+          },
+          {
+            "title": "See the workflow",
+            "url": "/#workflow",
+            "variant": "outline"
+          }
+        ],
+        "points": [
+          "Start without signing in",
+          "Chinese and English",
+          "Light and dark themes"
+        ],
+        "generator": {
+          "title": "Generate this follow-up",
+          "description": "Turn the customer’s current situation into natural sales language",
+          "customer": "Customer",
+          "vehicle": "Vehicle",
+          "stage": "Customer stage",
+          "focus": "Priority",
+          "stage_new": "New lead",
+          "stage_following": "Following up",
+          "stage_visit": "Visit scheduled",
+          "stage_negotiating": "Negotiating",
+          "generate": "Generate",
+          "generating": "Generating",
+          "result_title": "Suggested follow-up",
+          "copy": "Copy",
+          "copied": "Copied",
+          "empty": "Add the customer context, then generate a follow-up.",
+          "tip": "Edit, rewrite, or save the result after generation",
+          "sample_name": "Emma Lee",
+          "sample_vehicle": "Model Y",
+          "sample_focus": "Rear-seat space and daily commuting cost",
+          "sample_budget": "Around $45,000",
+          "sample_objection": "Still comparing similar models",
+          "initial_script": "Hi Emma, I wanted to follow up on the Model Y. You previously focused on rear-seat space and daily commuting cost. Are those still the most important points in your decision? We can compare the practical space, relevant trim, and long-term ownership cost against how you will actually use the car. Would later today or tomorrow work better for a quick conversation?"
+        }
+      },
+      "features": {
+        "block": "features",
+        "id": "features",
+        "title": "From customer context to the next useful conversation",
+        "description": "Keep scattered lead details, communication priorities, and reusable language in one clear workflow.",
+        "items": [
+          {
+            "title": "Customer profiles",
+            "description": "Keep the vehicle, budget, stage, priorities, and main concerns together.",
+            "icon": "ContactRound"
+          },
+          {
+            "title": "Context-aware generation",
+            "description": "Generate structured follow-up based on stage, channel, and communication tone.",
+            "icon": "WandSparkles"
+          },
+          {
+            "title": "Edit and rewrite",
+            "description": "Refine the full script directly or ask for a shorter, gentler, or more direct version.",
+            "icon": "PencilLine"
+          },
+          {
+            "title": "Communication records",
+            "description": "Save confirmed language as a record so you can review every customer follow-up.",
+            "icon": "MessageSquareText"
+          },
+          {
+            "title": "Saved scripts",
+            "description": "Keep polished language and reuse it in similar customer situations.",
+            "icon": "Bookmark"
+          },
+          {
+            "title": "Language and theme",
+            "description": "Switch between Chinese and English, light and dark, with preferences remembered.",
+            "icon": "Languages"
+          }
+        ]
+      },
+      "workflow": {
+        "block": "features-step",
+        "id": "workflow",
+        "label": "A clear workflow",
+        "title": "Four steps to a better follow-up",
+        "description": "Spend less energy composing on the spot and more attention on the customer’s next step.",
+        "items": [
+          {
+            "title": "Create the customer",
+            "description": "Start with a name, vehicle, and budget. Complete the profile over time.",
+            "icon": "UserPlus"
+          },
+          {
+            "title": "Add the context",
+            "description": "Choose stage, channel, priorities, concerns, and communication tone.",
+            "icon": "SlidersHorizontal"
+          },
+          {
+            "title": "Generate and refine",
+            "description": "Get a complete follow-up, then edit or rewrite it with specific guidance.",
+            "icon": "Sparkles"
+          },
+          {
+            "title": "Use and retain",
+            "description": "Copy when needed, save confirmed communication as a record, and keep strong versions as saved scripts.",
+            "icon": "Save"
+          }
+        ],
+        "className": "bg-muted/45"
+      },
+      "scenarios": {
+        "block": "features",
+        "id": "scenarios",
+        "title": "Built for common automotive follow-up situations",
+        "description": "The language changes with the customer stage, so every lead does not receive the same generic message.",
+        "items": [
+          {
+            "title": "First lead contact",
+            "description": "Open naturally and confirm the real need without pushing too early.",
+            "icon": "PhoneCall"
+          },
+          {
+            "title": "Ongoing follow-up",
+            "description": "Continue from the last discussion, address concerns, and maintain a useful rhythm.",
+            "icon": "MessagesSquare"
+          },
+          {
+            "title": "Visit invitation",
+            "description": "Clarify what to experience and offer concrete time options that are easy to answer.",
+            "icon": "CalendarCheck"
+          },
+          {
+            "title": "Plan and price discussion",
+            "description": "Compare fit, trim, and ownership cost without making unverified promises.",
+            "icon": "BadgeDollarSign"
+          },
+          {
+            "title": "Customer pauses",
+            "description": "Respect the customer’s timing and keep space for a future conversation.",
+            "icon": "Clock3"
+          },
+          {
+            "title": "After the sale",
+            "description": "Confirm delivery details and ongoing service to keep the experience continuous.",
+            "icon": "Handshake"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently asked questions",
+        "description": "How PitchForge works and where your information is kept.",
+        "items": [
+          {
+            "question": "Who is PitchForge for?",
+            "answer": "It is designed for automotive sales advisors, store teams, and sales managers who follow customer leads over time."
+          },
+          {
+            "question": "Can I edit generated language?",
+            "answer": "Yes. Edit the full script directly, rewrite it, or add guidance for a new version."
+          },
+          {
+            "question": "Where is customer information saved?",
+            "answer": "Customer profiles, communication records, and saved scripts remain in your current browser so you can continue later."
+          },
+          {
+            "question": "Do saved scripts affect new generation?",
+            "answer": "No. Saved scripts are an independent personal library and are only used when you choose one for a customer."
+          },
+          {
+            "question": "Is the interface available in English?",
+            "answer": "Yes. PitchForge supports Chinese and English, plus light, dark, and system theme modes."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Be better prepared for the next customer follow-up",
+        "description": "Start with one lead, organize the priorities, and create language you can use.",
+        "buttons": [
+          {
+            "title": "Open customer workspace",
+            "url": "/customers",
+            "icon": "ArrowRight"
+          },
+          {
+            "title": "Explore follow-up situations",
+            "url": "/showcases",
+            "variant": "outline",
+            "icon": "PanelsTopLeft"
+          }
+        ],
+        "className": "bg-muted/45"
+      }
+    }
+  }
+}

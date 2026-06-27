@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "PitchForge Product Updates",
+    "description": "See PitchForge feature changes and experience improvements."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Product updates",
+        "description": "See PitchForge feature changes and experience improvements."
+      }
+    }
+  }
+}

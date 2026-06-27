@@ -1,0 +1,140 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "PitchForge",
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "产品能力",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "使用流程",
+          "url": "/#workflow",
+          "icon": "ListChecks"
+        },
+        {
+          "title": "跟进场景",
+          "url": "/showcases",
+          "icon": "PanelsTopLeft"
+        },
+        {
+          "title": "内容",
+          "icon": "FileText",
+          "children": [
+            {
+              "title": "销售跟进指南",
+              "description": "阅读客户跟进方法与实用建议",
+              "url": "/blog",
+              "icon": "Newspaper"
+            },
+            {
+              "title": "产品更新",
+              "description": "了解 PitchForge 的近期变化",
+              "url": "/updates",
+              "icon": "Clock"
+            },
+            {
+              "title": "使用文档",
+              "description": "查看产品功能与使用说明",
+              "url": "/docs",
+              "icon": "BookOpenText"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "进入工作台",
+        "url": "/customers",
+        "icon": "ArrowRight"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "PitchForge",
+      "description": "面向汽车销售场景的客户线索跟进工具，帮助销售整理客户信息并生成结构化跟进话术。",
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "客户工作台",
+              "url": "/customers"
+            },
+            {
+              "title": "常用话术",
+              "url": "/saved-scripts"
+            },
+            {
+              "title": "跟进场景",
+              "url": "/showcases"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "使用文档",
+              "url": "/docs"
+            },
+            {
+              "title": "销售跟进指南",
+              "url": "/blog"
+            },
+            {
+              "title": "产品更新",
+              "url": "/updates"
+            }
+          ]
+        },
+        {
+          "title": "了解 PitchForge",
+          "children": [
+            {
+              "title": "产品能力",
+              "url": "/#features"
+            },
+            {
+              "title": "使用流程",
+              "url": "/#workflow"
+            },
+            {
+              "title": "开始使用",
+              "url": "/customers"
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}
