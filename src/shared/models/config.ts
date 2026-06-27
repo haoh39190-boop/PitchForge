@@ -16,6 +16,21 @@ export type Configs = Record<string, string>;
 
 export const CACHE_TAG_CONFIGS = 'configs';
 
+function isBuildPhase() {
+  return (
+    process.env.NEXT_PHASE === 'phase-production-build' ||
+    process.env.npm_lifecycle_event === 'build'
+  );
+}
+
+function shouldReadDatabaseConfigs() {
+  return (
+    typeof window === 'undefined' &&
+    Boolean(envConfigs.database_url) &&
+    !isBuildPhase()
+  );
+}
+
 export async function saveConfigs(configs: Record<string, string>) {
   const result = await db().transaction(async (tx: any) => {
     const configEntries = Object.entries(configs);
@@ -49,13 +64,9 @@ export async function addConfig(newConfig: NewConfig) {
   return result;
 }
 
-export const getConfigs = unstable_cache(
+const readDatabaseConfigs = unstable_cache(
   async (): Promise<Configs> => {
     const configs: Record<string, string> = {};
-
-    if (!envConfigs.database_url) {
-      return configs;
-    }
 
     const result = await db().select().from(config);
     if (!result) {
@@ -75,15 +86,34 @@ export const getConfigs = unstable_cache(
   }
 );
 
+export async function getConfigs(): Promise<Configs> {
+  if (!shouldReadDatabaseConfigs()) {
+    return {};
+  }
+
+  try {
+    return await readDatabaseConfigs();
+  } catch (e) {
+    console.warn(
+      'Database configs are unavailable. Falling back to environment/default configs.',
+      e
+    );
+    return {};
+  }
+}
+
 export async function getAllConfigs(): Promise<Configs> {
   let dbConfigs: Configs = {};
 
   // only get configs from db in server side
-  if (typeof window === 'undefined' && envConfigs.database_url) {
+  if (shouldReadDatabaseConfigs()) {
     try {
       dbConfigs = await getConfigs();
     } catch (e) {
-      console.log(`get configs from db failed:`, e);
+      console.warn(
+        'Database configs are unavailable. Falling back to environment/default configs.',
+        e
+      );
       dbConfigs = {};
     }
   }
